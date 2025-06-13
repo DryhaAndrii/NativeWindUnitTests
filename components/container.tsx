@@ -3,7 +3,7 @@ import { ScrollView, View } from "react-native";
 
 export function Container({ children }: { children: React.ReactNode }) {
   return (
-    <View className="flex-1 size-full items-center bg-white gap-2 pb-2">
+    <View className="flex-1 size-full items-center bg-white gap-2">
       {children}
     </View>
   );

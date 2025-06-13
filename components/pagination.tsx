@@ -33,7 +33,7 @@ export function Pagination({ min, max, pageChangeHandler, page }: Props) {
   const pages = getPageNumber(min, max, page);
 
   return (
-    <View className="flex-row flex-wrap items-center justify-center w-[100%] gap-2">
+    <View className="flex-row flex-wrap items-center justify-center w-[100%] gap-2 pb-2">
       {pages.map((item) => (
         <Button
           key={item}
